@@ -17,7 +17,7 @@ Above command will generate `polyglot_shrike.jpg` that can be now used.
 How to exploit
 ==============
 
-Due to first four bytes `0xFFD8FFE0` that are non-ASCII characters when interpreted as a text file, a character set needs to be changed to ISO/IEC 8859-1. If running in `<script>` tag, this can be achieved by adding `charset="ISO-8859-1"` inside it:
+Due to first four bytes `0xFFD8FFE0` that are non-ASCII characters when interpreted as a text file, a character set needs to be changed to ISO/IEC 8859-1. If running in `<script>` tag, this can be achieved by adding `charset=ISO-8859-1` inside it:
 
 ```
 <script charset=ISO-8859-1 src=polyglot_shrike></script>
